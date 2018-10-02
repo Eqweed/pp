@@ -1,0 +1,126 @@
+* { 
+	margin: 0;
+	padding: 0;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: black;
+
+ 	transition: all.6s ease; /* плавно меняют ефект */
+  	-moz-transition: all.6s ease;
+  	-webkit-transition: all.6s ease;
+  	-ms-transition: all.6s ease;
+ 	/*border: 1px solid red;*/
+ }
+
+
+/*шапка сайта*/
+ header {
+ 	border-bottom: 1px solid black;
+ 	/*padding-top: 10px;*/
+ 	text-align: center;
+ 	font-family: Comic Sans MS, Overpass;
+
+ 	display: flex;
+ 	justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*background-color: white;*/
+ }
+
+
+ a.logo {
+ 	flex-basis: 25%;
+}	
+a.logo span {
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+ul.menu{
+	flex-basis: 5%;
+	padding-top: 15px;
+
+}
+
+/***********************************************/
+a.books{
+	flex-basis: 5%;
+	padding-top: 15px;
+
+}
+a.books:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+a.films{
+	flex-basis: 5%;
+	padding-top: 15px;
+
+}
+a.films:hover {
+	background-color: black;
+	color: white;
+}
+
+
+a.music {
+	flex-basis: 5%;
+	padding-top: 15px;
+}
+a.music:hover {
+	background-color: black;
+	color: white;
+}
+
+
+span.regist {
+	/*border: 1px solid red;*/
+	padding-top: 15px;
+	flex-basis: 20%;	
+ }
+
+ .contact-1 {
+ 	float: left;
+ }
+
+ .contact-2 {
+ 	margin-right: 10%;
+ }
+
+ /*main*/
+ main {
+ 	/*border: 1px solid green;*/
+ 	margin-top: 50px;
+ 	margin-right: 30%;
+ 	margin-left: 30%;
+ }
+ main div{
+ 	display: flex;
+ 	justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-class a {
+	/*border: 1px solid silver;*/
+	border-radius: 10px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	margin-top: 2px;
+}
+
+.main-class a:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
