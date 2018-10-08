@@ -7,6 +7,7 @@
  	text-decoration: none;
  	color: black;
 
+
  	transition: all.6s ease; /* плавно меняют ефект */
   	-moz-transition: all.6s ease;
   	-webkit-transition: all.6s ease;
@@ -44,6 +45,7 @@ a.logo span {
 header div.menu-div{
 	flex-basis: 5%;
 	padding-top: 15px;
+
 }
 header div.menu-div:hover {
 	background-color: black;
@@ -89,7 +91,7 @@ ul.submenu {
     background-color: white;
     border: 1px solid black;
 }
-ul.submenu > li {
+ul.subqmenu > li {
     display: block;
 }
 ul.submenu > li > a {
@@ -166,40 +168,40 @@ span.regist {
 }
 /*asdasdasdasdasdasdasdasd*/
 .wrapper {
-  float: left;
-  width: 100%;
+  /*width: 100%;*/
   margin-top: 60px;
+
+  display: flex;
+  justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .wrapper .articles{
-  float: left;
-  width:80%;
-  margin-left:10%;
-	margin-top: 10%;
+  /*float: left;*/
+  /*width:80%;*/
+  /*margin-left:10%;*/
+	/*margin-top: 10%;*/
 }
 .wrapper .article{
-  float: right;
-  width:80%;
-  margin-right: 5%;
-	margin-top: -19%;
-}
-.wrapper .articles article {
-  float: left;
-  width: 31.33%;
-  border: 2px solid #F5F5F5;
-  box-sizing: border-box;
+
+	flex-basis: 30%;
+  /*float: right;*/
+  /*width:80%;*/
+  /*margin-right: 5%;*/
+	/*margin-top: -19%;*/
   border-radius: 5px;
-    margin-right: 10%;
   min-height: 30px;
+  text-align: center;
 }
+/*
 .wrapper .article article {
   float: right;
   width: 31.33%;
   border: 2px solid #F5F5F5;
   box-sizing: border-box;
-  border-radius: 5px;
-    margin-right: 10%;
-  min-height: 30px;
 }
+*/
 .wrapper .articles article img {
   width: 100%;
   height: 200px;
@@ -251,7 +253,25 @@ span.regist {
     border-radius: 15px;
     background-color: #F5F5F5;
     min-height: 300px;
+		padding: 1%;
  }
+.parent-1 {
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    min-height: 300px;
+ }
+
+/************music-class**********/
+span.span-top h1 {
+  margin-top: 30px;
+  text-align: center;
+}
 
 
 /*style fir footer*/
@@ -261,6 +281,7 @@ left: 0;
 bottom: 0;
 width: 100%;
 height: 80px;
+background-color: white;
 border: 2px ;
   box-sizing: border-box;
   border-radius: 1px;
@@ -272,6 +293,7 @@ border: 2px ;
  font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;
  float : left;
  margin-left: 10px;
+
 }
 .right {
   float: right;
