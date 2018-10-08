@@ -8,7 +8,7 @@
 
 <body>
 	<header>
-		<a href="#" class="logo">
+		<a href="index.html" class="logo">
 			<span>Productive Page</span>
 			<img src="img/logo.png" alt="none">
 		</a>
@@ -19,9 +19,9 @@
 	<div class="menu-div">
 
 		<ul class="menu">
-    		<li><a href="#" class="">Книги</a>
+    		<li><a href="books.html" class="">Книги</a>
      		   <ul class="submenu">
-            		<li><a href=#>Sudmenu 1</a></li>
+            		<li><a href="books.html">Sudmenu 1</a></li>
             		<li><a href=#>Sudmenu 1</a></li>
         		</ul>
     		</li>
@@ -45,7 +45,7 @@
 		<div class="menu-div">
 
 		<ul class="menu">
-    		<li><a href="#" class="">Музика</a>
+    		<li><a href="music.html" class="">Музика</a>
      		   <ul class="submenu">
             		<li><a href=#>Sudmenu 1</a></li>
             		<li><a href=#>Sudmenu 1</a></li>
@@ -70,8 +70,20 @@
 	</main>
 
 
-	<div class="parent">
-							</div>
+	<div class="parent" id="">
+		<input type="button" name="" value="Посчитать рандомное число " id="button-1"><br><br>
+		<label for="number">Введите число которое вы предпологаете: </label>
+		<input type="number" name="nu" value="">
+		<input type="button" name="" value="Кнопка" id="button-2">
+	</div>
+
+
+<!--
+	<div class="parent-1">
+
+	</div>
+ -->
+
 
 	<footer>
 		<div class="footer">
@@ -86,7 +98,31 @@
 </div>
 </footer>
 
+	<script>
 
+
+		var numb = 1 + Math.random() * (100 - 1);
+		numb = Math.round(numb);
+		// alert (numb);
+
+		// let x = 10;
+		// var i;
+		for (var i = 10; i > 0; i--) {
+
+				let numbs = prompt ("У вас залишилось " + i +" спроб." + " Введiть число", "");
+				if (numb == numbs) {
+					alert (true);
+					break;
+					}
+					else if (numb < numbs ) {
+					alert ("Число велике!");
+				}
+					else if (numb > numbs ){
+					alert ("Число мале!");
+					}
+	 }
+
+	</script>
 </body>
 
 </html>
