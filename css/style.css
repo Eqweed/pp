@@ -28,7 +28,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 
-    /*background-color: white;*/
+    background-color: white;
  }
 
 
@@ -156,6 +156,14 @@ span.regist {
 	color: black;
 	border: 1px solid black;
 }
+/* фонова books  */
+.imagef{
+  width: 100%;
+	height: 100px;
+	margin-bottom: 20%;
+
+
+}
 /*asdasdasdasdasdasdasdasd*/
 .wrapper {
   float: left;
@@ -196,14 +204,14 @@ span.regist {
   width: 100%;
   height: 200px;
   border-radius: 5px 5px 0px 0px;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid white;
   margin-bottom: 10px;
 }
 .wrapper .article article img {
   width: 100%;
   height: 200px;
   border-radius: 5px 5px 0px 0px;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid white;
   margin-bottom: 10px;
 }
 .wrapper .articles article h2 {
@@ -211,14 +219,14 @@ span.regist {
   margin left: 10%;
   font-weight: normal;
   font-size: 1.7em;
-  color: #000033;
+  color: white;
 }
 .wrapper .article article h2 {
   width: 80%;
   margin left: 10%;
   font-weight: normal;
   font-size: 1.7em;
-  color: #000033;
+  color: white;
 }
 .wrapper .articles article p {
   width: 80%;
@@ -226,14 +234,15 @@ span.regist {
   text-indent: 1em;
 }
 .wrapper .articles article a {
-  color: #000033;
+  color: white;
 }
 .wrapper .article article a {
-  color: #000033;
+  color: white;
 }
 
  .parent {
-    margin-top: 1%;
+	 
+      margin-top: 1%;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 5%;
@@ -256,7 +265,8 @@ border: 2px ;
   box-sizing: border-box;
   border-radius: 1px;
   background-color: black;
-  height: 2px;
+  height: 50px;
+	background-color: white;
 }
 .footer p {
  font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;
