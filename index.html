@@ -4,126 +4,36 @@
 <head>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<title>Productive Page</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<header>
-		<a href="index.html" class="logo">
-			<span>Productive Page</span>
-			<img src="img/logo.png" alt="none">
-		</a>
 
+	<div class="g">
+					<div class=col-10>
+				<div class="bg-ingo clear">
+      <button type="button" class="btn btn-dark col-2">День</button>
+			<button type="button" class="btn btn-dark col-2">Тиждень </button>
+			<button type="button" class="btn btn-dark col-2">Місяць</button>
+			<button type="button" class="btn btn-dark col-2">Рік</button>
 
-
-
-	<div class="menu-div">
-
-		<ul class="menu">
-    		<li><a href="books.html" class="">Книги</a>
-     		   <ul class="submenu">
-            		<li><a href="books.html">Sudmenu 1</a></li>
-            		<li><a href=#>Sudmenu 1</a></li>
-        		</ul>
-    		</li>
-		</ul>
-
-	</div>
-
-		<div class="menu-div">
-
-		<ul class="menu">
-    		<li><a href="#" class="">Фільми</a>
-     		   <ul class="submenu">
-            		<li><a href=#>Sudmenu 1</a></li>
-            		<li><a href=#>Sudmenu 1</a></li>
-        		</ul>
-    		</li>
-		</ul>
-
-	</div>
-
-		<div class="menu-div">
-
-		<ul class="menu">
-    		<li><a href="music.html" class="">Музика</a>
-     		   <ul class="submenu">
-            		<li><a href=#>Sudmenu 1</a></li>
-            		<li><a href=#>Sudmenu 1</a></li>
-        		</ul>
-    		</li>
-		</ul>
-
-	</div>
-		<span class="regist">
-            <a href="regist.html" title="Зарегистрироваться" class="contact-1"><span>Реєстрація</span></a>
-            <a href="house.html" title="Войти" class="contact-2"><span>Вхід</span></a>
-        </span>
-	</header>
-
-	<main>
-		<div class="main-class">
-			<a href="" class="day">День</a>
-			<a href="" class="week">Тиждень</a>
-			<a href="" class="month">Місяць</a>
-			<a href="" class="year">Рік</a>
-		</div>
-	</main>
-
-
-	<div class="parent" >
-
-	</div>
-
-
-<!--
-	<div class="parent-1">
-
-	</div>
- -->
-
-
-	<footer>
-		<div class="footer">
-	  <p>ProductivePage. Сервіс для тих, хто розвивається <br>
-										 ©2018 RE company
-
-    <div class="right">
-            <a href="https://vk.com"><img  src="img/vk.png"  height="20px" alt=" VK" title="Vkontakte"/></a>
+	 </div>
+	 </div>
+	 </div>
+	 <footer class="footer">
+        <span class="text-muted">Сервіс для тих, хто розвивається
+										 ©2018 RE company <a href="https://vk.com"><img  src="img/vk.png"  height="20px" alt=" VK" title="Vkontakte"/></a>
             <a href="https://www.facebook.com/"><img  src="img/facebook.png"  height="20px" alt=" Facebook" title="Facebook"/></a>
-            <a href="https://twitter.com/"><img  src="img/twitter.png" height="20px" alt="Twitter" title="Twitter"/></a>
-</div>
-</div>
-</footer>
-
-	<script>
+            <a href="https://twitter.com/"><img  src="img/twitter.png" height="20px" alt="Twitter" title="Twitter"/></a></span>
 
 
-  var numb = 1 + Math.random() * (100 - 1);
-		  numb = Math.round(numb);
-		//alert (numb);
+    </footer>
 
-		// let x = 10;
-		// var i;
-	for (var i = 10; i > 0; i--) {
 
-	  let numbs = prompt ("У вас залишилось " + i +" спроб!" + " Введiть число", "");
-		  if (numbs==null) {
-			  break;
-				} else {
-				  if (numb == numbs) {
-						alert ("Ви ввели правильне число");
-						break;
-						}
-						else if (numb < numbs ) {
-						alert ("Число велике!");
-						}
-						else if (numb > numbs ){
-						alert ("Число мале!");
-					}
-				}
-	  }
 
-	</script>
 </body>
 
 </html>
