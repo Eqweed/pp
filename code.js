@@ -27,3 +27,11 @@ fail = "Вкажіть стать"
 if (fail)
 alert(fail);
 }
+ function change () {
+  let firstContainer = document.querySelector (".container1")
+  let content = firstContainer.inerHTML
+
+  console.log("content", content)
+
+
+ }

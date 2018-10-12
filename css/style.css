@@ -1,4 +1,5 @@
 ﻿  /*  footer  */
+<<<<<<< HEAD
 .footer {
   position: absolute;
   bottom: 0;
@@ -12,6 +13,8 @@
    /* background-color: red; */
    padding: 5px;
  }
+=======
+>>>>>>> eec4340e1f127737f84ba4dcad1fef407d373dac
 
  #state1, state2 {
    margin-left: 10px;
