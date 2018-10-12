@@ -55,9 +55,20 @@
           <a class="nav-link " href="#" id="navbarDropdownMenuLinkReg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img src="img/icon-autin.png" alt="NaN" width="25px">
           </a>
+
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkReg">
-            <a class="dropdown-item" href="#">Вход</a>
-            <a class="dropdown-item" href="reg.html">Регистрация</a>
+            <div class="container">
+              <label for="login">Логiн:</label>
+              <input type="email" name="login" placeholder="Ваш логiн" id="email" />
+              <label for="password">Пароль:</label>
+              <input type="password" name="password" placeholder="Пароль" id="password" /><br><br>
+              <button type="button"  class="btn btn-dark" name="button">Увiйти</button>
+              <a href="reg.html">Зареєструватись</a><br>
+              <a href="#">Забули пароль?</a>
+            </div>
+
+            <!--  <a class="dropdown-item" href="#">Вход</a>
+              <a class="dropdown-item" href="reg.html">Регистрация</a>  -->
           </div>
         </li>
       </ul>
