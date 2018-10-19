@@ -32,6 +32,17 @@ alert(fail);
   let content = firstContainer.inerHTML
 
   console.log("content", content)
-
-
  }
+
+ // autin fun
+let form = document.querySelector('.formWithValidation')
+let validateBtn = form.querySelector('.formWithValidation .validateBtn')
+
+form.addEventListener('submit', function (event) {
+  event.preventDefault()
+  console.log('clicked on validate')
+})
+
+function buttonClick1(button) {
+
+}
